@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="images/myimage.jpg">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+   
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #484649;
+  color: #e0c7c7;
+  padding: 40px;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.right{
+    float: right;
+}
+
+.upper {
+    text-shadow: #310c46;
+    font-size: larger;
+    font-style: initial;
+    flex-direction: column-reverse;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+body {
+  background-image: url('https://wallpaperaccess.com/full/187161.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+
+.col-9{
+    font-size: large;
+    font-style: oblique;
+    font-feature-settings: "afrc";
+}
+
+.name{
+    color: #23152b;
+    font: optional;
+    font-size: 80px;
+}
+.upper a{
+      margin-right: 4rem;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-decoration: solid;
+      color: rgb(44, 172, 172);
+      border: #310c46;
+}
+.menu li:hover {
+  background-color: #0f6f8f;
+}
+button{
+    border-radius: 20px;
+    background-color: #33b5e5;
+    box-shadow: #23152b;
+
+}
+
+p{
+    font-size: 15px;
+    font-style: oblique;
+    text-align: left;
+    align-items: left;
+    margin-left: 320px;
+    margin-right:150px ;
+}
+b{
+    color: #310c46;
+    font-size: 17px;
+}
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: solid 3px rgb(207, 197, 191);
+    opacity: 100%;
+}
+
+</style>
+</head>
+<body bgcolor="grey">
+    <div class="header">
+ <div class="upper">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Service</a>
+          <a href="#">Blogs</a>
+          </div>
+          <div class="right">
+         <button>connect</button>
+        </div>
+    </div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <img src="images/myimage.jpg" alt="images">
+    <ul>
+      <li>Education</li>
+      <li>Experience</li>
+      <li>Intrests</li>
+      <li>Contact</li>
+    </ul>
+   
+  </div>
+  <div class="col-9">
+    <h1 class="name">SRISHTI JALAN</h1>
+    <h3>welcome!</h3>
+    <h2>I Am a Web Designer.</h2>
+  </div>
+  <p>Hi am Srishti Jalan. I am in <b>bhawanipur education society</b>college persuing Bachelor's degree in computer science.
+I believe i am good in teaching in relevant subjects. Am curently working in <b>Realpactech</b> as an intern as mentor in <b>coding and technology</b>. Basically i am intrested in web development which learned from various platforms like- udemy,youtube and corsera.
+</p>
+</div>
+</body>
+</html>
